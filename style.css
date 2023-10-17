@@ -1,0 +1,135 @@
+body{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.box{
+    height: 360px;
+    border-radius: 34px;
+    border-radius: 36px;
+    box-shadow:  6px 6px 12px #9f9f9f,
+             -6px -6px 12px #ffffff;
+}
+.ch1 , .ch2{
+    height: 360px;
+    border-radius: 34px;
+}
+.ch1{
+    background: rgb(119,84,254);
+    background: linear-gradient(180deg, rgba(119,84,254,1) 0%, rgba(48,44,233,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ch1 .title{
+    color: #c7c7ff;
+    margin-top: 35px;
+    font-weight: 700;
+}
+.circle{
+    margin-top: 25px;
+    background: rgb(119,84,254);
+    background: linear-gradient(180deg, #4e23cc 0%, #533dee  100%);
+    padding: 10px 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle h1{
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+.circle h6{
+    color: #a39af8;
+}
+.ch1-G{
+    margin-top: 40px;
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+}
+.ch1 .text{
+    margin-top: 15px;
+    text-align: center;
+    color: #b7b6fd;
+    font-size: 14px;
+}
+.ch2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ch2 .title{
+    width: 300px;
+    text-align:left;
+}
+.ch2 .list{
+    width: 300px;
+    height: 300px;
+}
+.ch2 .list .item{
+    display: flex;
+    height: 40px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.ch2 .list .item .task{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 14px;
+}
+.ch2 .list .item .number{
+    width:50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.ch2 .list .item .number span{
+    color: grey;
+}
+.ch2 .list .btn-box{
+    height: 40px;
+    background: #303b59;
+    width: 300px;
+    border-radius: 30px;
+    color: white;
+}
+.item-1{
+    background-color: #ffdfde;
+}
+.item-2{
+    background-color: #fff0d7;
+}
+.item-3{
+    background-color:#d8f2e9;
+}
+.item-4{
+    background-color:#d0d3f8;
+}
+
+.i-1-task{
+    color: #fe595a;
+}
+.i-2-task{
+    color: #ffb123;
+}
+.i-3-task{
+    color: #00bd91;
+}
+.i-4-task{
+    color: #162ad5;
+}
